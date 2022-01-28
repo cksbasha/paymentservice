@@ -2,7 +2,7 @@ pipeline {
 
   environment {
     PROJECT = "my-project-600-339318"
-    APP_NAME = "checkout"
+    APP_NAME = "payment"
     FE_SVC_NAME = "${APP_NAME}-frontend"
     CLUSTER = "iphone"
     CLUSTER_ZONE = "us-central1-c"
