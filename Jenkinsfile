@@ -62,7 +62,7 @@ spec:
     stage('Deploy Dev') {
       steps {
         container('kubectl') {
-          sh "gcloud container clusters get-credentials iphone --zone us-central1-c --project my-project-600-339318"
+          sh "gcloud container clusters get-credentials way2die --zone us-central1-c --project indigo-history-337312"
           sh "kubectl -help"
          
         }
